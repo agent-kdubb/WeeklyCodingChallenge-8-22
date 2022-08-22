@@ -1,8 +1,9 @@
 # WeeklyCodingChallenge-8-22
 
-1) Median of Two Sorted Arrays
+1. Median of Two Sorted Arrays
 Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 The overall run time complexity should be O(log (m+n)).
+
 
 Example1:
 Input:nums1 = [1,3], nums2 = [2]
@@ -14,8 +15,8 @@ Input:nums1 = [1,2], nums2 = [3,4]
 Output:2.50000
 Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
-Constraints:
 
+Constraints:
 	
 nums1.length == m
 	
@@ -33,6 +34,7 @@ nums2.length == n
 2) Mergek Sorted Lists
 You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
 Merge all the linked-lists into one sorted linked-list and return it.
+
 
 Example1:
 Input: lists = [[1,4,5],[1,3,4],[2,6]]
@@ -54,10 +56,9 @@ Example3:
 Input: lists = [[]]
 Output: []
 
+
 Constraints:
 
-
-	
 k == lists.length
 	
 0 <= k <= 104
